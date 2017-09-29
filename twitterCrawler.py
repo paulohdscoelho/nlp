@@ -30,7 +30,8 @@ class MyListener(StreamListener):
                         location = geolocator.reverse(coordinate)
                         array = location.address.encode('utf-8').split(',')
                         if array[-1].strip() == 'United States of America':
-                            text = json_data['text'].encode('utf-8') + '\t' + str(location.address).encode('utf-8').strip()
+
+                            text = hora = json_data['created_at'] +'\t' + json_data['text'].encode('utf-8') + '\t' + str(location.address).encode('utf-8').strip()
                             print text
                             saida.write(text+'\n')
             return True
