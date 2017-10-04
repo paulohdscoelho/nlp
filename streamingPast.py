@@ -23,7 +23,7 @@ api = tweepy.API(auth)
  with open('tweetsPast.txt','a') as saida:
 for tweet in tweepy.Cursor(api.search,q=[u'catalunya referendum referéndum referendo', u'cataluña referéndum referendo referendum', u'catalonia referendo referendum referéndum', u'catalunha referendo referendum referéndum'],count=100,\
                            lang="en",\
-                           since_id=2017-09-29).items():
+                           since="2017-09-27",until="2017-10-04",lang="es").items():
     json_data = json.loads(tweet)
     if json_data['geo'] != None:
         if json_data['geo']['coordinates'] != None:
