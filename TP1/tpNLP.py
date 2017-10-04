@@ -13,7 +13,7 @@ Após salvar o binário, carregar no script Python e calcular as distâncias
 
 '''
 
-def distancia(matrizA, matrizB):
+def distanciaPadrao(matrizA, matrizB):
 
 	somadorFinal = 0
 
@@ -50,4 +50,4 @@ word_vectors2 = KeyedVectors.load_word2vec_format('Vectors2.bin', binary=True)  
 matrizLivro1 = geraMatriz(word_vectors)
 matrizLivro2 = geraMatriz(word_vectors2)
 
-print distancia(matrizLivro1,matrizLivro2)
+print distanciaPadrao(matrizLivro1,matrizLivro2)

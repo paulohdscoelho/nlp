@@ -1,0 +1,31 @@
+
+Comando shell para remover os espaços dos nomes dos livros:
+
+IFS="\n"
+for file in *.txt;
+do
+    mv "$file" "${file//[[:space:]]}"
+done
+
+
+Comando shell para remover pontuação de todos os livros:
+
+for file in *.txt
+do
+ cat "$file" | tr -d '[:punct:]' > ../livrosSemPonct/"$file"
+done
+
+
+Comando shell para realizar o steaming de todos os livros sem pontuação:
+
+for file in *.txt
+do
+ .././steam "$file" ../livrosSteamed/"$file"
+done
+
+Comando shell para realizar o word2Vec dos livros, após o Steaming:
+
+for file in *.txt
+do
+ .././word2vec -train "$file" -output ../livrosWord2Vec/"${file//.txt}".bin -size 100 -window 8 -negative -25 -hs 0 -sample le-4 -threads 20 -binary 1 -iter 15 >> ../logWord2Vec.txt
+done
