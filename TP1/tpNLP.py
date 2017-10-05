@@ -4,7 +4,9 @@ from gensim.models.keyedvectors import KeyedVectors
 from gensim.models import word2vec
 import numpy as np
 import sys
-import math
+import math 
+from math import*
+from scipy import stats
 
 '''
 Primeiro, rodar essa linha no diretório do word2vec em C:
@@ -12,11 +14,8 @@ Primeiro, rodar essa linha no diretório do word2vec em C:
 Após salvar o binário, carregar no script Python e calcular as distâncias
 
 '''
-
 def distanciaPadrao(matrizA, matrizB):
-
 	somadorFinal = 0
-
 	for i in range(len(matrizA[0])):
 		somaRow = 0
 		for j in range(len(matrizA[1])):
@@ -24,17 +23,12 @@ def distanciaPadrao(matrizA, matrizB):
 		somadorFinal += somaRow
 	return math.sqrt(somadorFinal)
 
-
 def geraMatriz(word_vectors):
-	setWords = []
-	for key in word_vectors.vocab:
-		setWords.append(key)
-	
 	distanceMatrix = []
-	for row in setWords:
+	for row in word_vectors.vocab:
 		arrayDistance = []
-		for col in setWords:
-			try:
+		for col in word_vectors.vocab:
+			try:				
 				similarity = word_vectors.similarity(str(row), str(col))
 				arrayDistance.append(similarity)
 			except KeyError:
@@ -43,11 +37,15 @@ def geraMatriz(word_vectors):
 	return distanceMatrix
 
 
-word_vectors = KeyedVectors.load_word2vec_format('Vectors.bin', binary=True)  # C binary format
+bin1 = sys.argv[1]
+bin2 = sys.argv[2]
 
-word_vectors2 = KeyedVectors.load_word2vec_format('Vectors2.bin', binary=True)  # C binary format
+word_vectors1 = KeyedVectors.load_word2vec_format(bin1, binary=True)  # C binary format
 
-matrizLivro1 = geraMatriz(word_vectors)
+word_vectors2 = KeyedVectors.load_word2vec_format(bin2, binary=True)  # C binary format
+
+matrizLivro1 = geraMatriz(word_vectors1)
+
 matrizLivro2 = geraMatriz(word_vectors2)
 
 print distanciaPadrao(matrizLivro1,matrizLivro2)

@@ -7,6 +7,19 @@ do
     mv "$file" "${file//[[:space:]]}"
 done
 
+Comando shell para remover header and footer de todos os livros:
+for file in *.txt
+do
+	awk '/START OF THE PROJECT GUTENBERG EBOOK/,/END OF THE PROJECT GUTENBERG EBOOK/' "$file" > ../livroslimposs/"$file"
+done
+
+Comando shell para remover primeira e ultima linha
+
+for file in *.txt
+do
+	sed '1d; $d' "$file" > ../livroslimpos/"$file"
+done
+
 
 Comando shell para remover pontuação de todos os livros:
 
@@ -29,3 +42,5 @@ for file in *.txt
 do
  .././word2vec -train "$file" -output ../livrosWord2Vec/"${file//.txt}".bin -size 100 -window 8 -negative -25 -hs 0 -sample le-4 -threads 20 -binary 1 -iter 15 >> ../logWord2Vec.txt
 done
+
+Five most popular similarity measures implementation in python - http://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
