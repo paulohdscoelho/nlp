@@ -1,0 +1,210 @@
+Starting training using file AChristmasCarol-CharlesDickens.txt
+Vocab size: 728
+Words in train file: 24638
+Starting training using file ADoll'sHouse-HenrikIbsen.txt
+Vocab size: 565
+Words in train file: 23892
+Starting training using file AdventuresofHuckleberryFinn-MarkTwain.txt
+100KVocab size: 1558
+Words in train file: 109256
+Starting training using file Alice’sAdventuresinWonderland-LewisCarroll.txt
+Vocab size: 785
+Words in train file: 27205
+Starting training using file AnInquiryintotheNatureandCausesoftheWealthofNations-AdamSmith.txt
+100K200K300KVocab size: 2752
+Words in train file: 371669
+Alpha: 0.025000  Progress: 2.96%  Words/thread/sec: 253.37k  Alpha: 0.024260  Progress: 5.92%  Words/thread/sec: 503.84k  Alpha: 0.023520  Progress: 8.88%  Words/thread/sec: 754.32k  Alpha: 0.022780  Progress: 11.84%  Words/thread/sec: 539.48k  Alpha: 0.022040  Progress: 14.80%  Words/thread/sec: 368.09k  Alpha: 0.021300  Progress: 17.76%  Words/thread/sec: 426.51k  Alpha: 0.020561  Progress: 20.72%  Words/thread/sec: 355.66k  Alpha: 0.019821  Progress: 23.68%  Words/thread/sec: 353.06k  Alpha: 0.019081  Progress: 26.64%  Words/thread/sec: 362.01k  Alpha: 0.018341  Progress: 29.60%  Words/thread/sec: 350.69k  Alpha: 0.017601  Progress: 32.56%  Words/thread/sec: 383.96k  Alpha: 0.016861  Progress: 35.52%  Words/thread/sec: 411.27k  Alpha: 0.016121  Progress: 38.47%  Words/thread/sec: 415.58k  Alpha: 0.015381  Progress: 41.43%  Words/thread/sec: 443.98k  Alpha: 0.014641  Progress: 44.39%  Words/thread/sec: 467.26k  Alpha: 0.013901  Progress: 47.35%  Words/thread/sec: 494.81k  Alpha: 0.013162  Progress: 50.31%  Words/thread/sec: 500.74k  Alpha: 0.012422  Progress: 53.27%  Words/thread/sec: 527.02k  Alpha: 0.011682  Progress: 56.23%  Words/thread/sec: 551.42k  Alpha: 0.010942  Progress: 59.19%  Words/thread/sec: 539.30k  Starting training using file Anna​​Karenina​-LeoTolstoy.txt
+100K200K300KVocab size: 3606
+Words in train file: 351069
+Alpha: 0.025000  Progress: 3.13%  Words/thread/sec: 210.09k  Alpha: 0.024217  Progress: 6.27%  Words/thread/sec: 413.54k  Alpha: 0.023433  Progress: 9.40%  Words/thread/sec: 618.87k  Alpha: 0.022650  Progress: 12.53%  Words/thread/sec: 808.21k  Alpha: 0.021867  Progress: 15.67%  Words/thread/sec: 422.64k  Alpha: 0.021083  Progress: 18.80%  Words/thread/sec: 504.86k  Alpha: 0.020300  Progress: 21.93%  Words/thread/sec: 529.54k  Alpha: 0.019517  Progress: 25.07%  Words/thread/sec: 405.37k  Alpha: 0.018733  Progress: 28.20%  Words/thread/sec: 427.77k  Alpha: 0.017950  Progress: 31.33%  Words/thread/sec: 421.23k  Alpha: 0.017167  Progress: 34.47%  Words/thread/sec: 409.10k  Alpha: 0.016383  Progress: 37.60%  Words/thread/sec: 431.44k  Alpha: 0.015600  Progress: 40.73%  Words/thread/sec: 448.31k  Alpha: 0.014817  Progress: 43.87%  Words/thread/sec: 437.64k  Alpha: 0.014034  Progress: 47.00%  Words/thread/sec: 453.97k  Alpha: 0.013250  Progress: 50.13%  Words/thread/sec: 479.38k  Alpha: 0.012467  Progress: 53.27%  Words/thread/sec: 507.03k  Alpha: 0.011684  Progress: 56.40%  Words/thread/sec: 510.41k  Alpha: 0.010900  Progress: 59.53%  Words/thread/sec: 535.08k  Alpha: 0.010117  Progress: 62.67%  Words/thread/sec: 537.37k  Starting training using file AnneofGreenGables-LucyMaudMontgomery.txt
+100KVocab size: 1871
+Words in train file: 102161
+Starting training using file AroundtheWorldin80Days-JulesVerne.txt
+Vocab size: 1611
+Words in train file: 59966
+Starting training using file AStudyofScarlet-ArthurConanDoyle.txt
+Vocab size: 1157
+Words in train file: 41286
+Starting training using file ATaleofTwoCities-CharlesDickens.txt
+100KVocab size: 2295
+Words in train file: 128483
+Starting training using file AutobiographyofBenjaminFranklin-BenjaminFranklin.txt
+Vocab size: 1671
+Words in train file: 68520
+Starting training using file BeyondGoodandEvil-FriedrichNietzsche.txt
+Vocab size: 1475
+Words in train file: 57248
+Starting training using file Candide-Voltaire.txt
+Vocab size: 965
+Words in train file: 30845
+Starting training using file Common​​Sense-ThomasPaine.txt
+Vocab size: 760
+Words in train file: 21358
+Starting training using file CrimeandPunishment-FyodorDostoevsky.txt
+100K200KVocab size: 2592
+Words in train file: 196319
+Starting training using file DavidCopperfield-CharlesDickens.txt
+100K200K300KVocab size: 3671
+Words in train file: 347570
+Alpha: 0.025000  Progress: 3.16%  Words/thread/sec: 204.79k  Alpha: 0.024209  Progress: 6.33%  Words/thread/sec: 405.78k  Alpha: 0.023418  Progress: 9.49%  Words/thread/sec: 607.79k  Alpha: 0.022626  Progress: 12.66%  Words/thread/sec: 796.94k  Alpha: 0.021835  Progress: 15.82%  Words/thread/sec: 311.11k  Alpha: 0.021044  Progress: 18.99%  Words/thread/sec: 299.10k  Alpha: 0.020253  Progress: 22.15%  Words/thread/sec: 329.09k  Alpha: 0.020253  Progress: 25.32%  Words/thread/sec: 370.91k  Alpha: 0.020253  Progress: 28.48%  Words/thread/sec: 415.23k  Alpha: 0.017879  Progress: 31.65%  Words/thread/sec: 405.14k  Alpha: 0.017088  Progress: 34.81%  Words/thread/sec: 408.47k  Alpha: 0.016297  Progress: 37.98%  Words/thread/sec: 433.69k  Alpha: 0.015506  Progress: 41.14%  Words/thread/sec: 469.65k  Alpha: 0.014714  Progress: 44.31%  Words/thread/sec: 466.07k  Alpha: 0.013923  Progress: 47.47%  Words/thread/sec: 455.89k  Alpha: 0.013132  Progress: 50.64%  Words/thread/sec: 480.32k  Alpha: 0.012341  Progress: 53.80%  Words/thread/sec: 504.12k  Alpha: 0.011550  Progress: 56.97%  Words/thread/sec: 502.72k  Alpha: 0.010758  Progress: 60.13%  Words/thread/sec: 522.37k  Alpha: 0.009967  Progress: 63.30%  Words/thread/sec: 533.45k  Starting training using file DonQuixote-MigueldeCervantes.txt
+100K200K300K400KVocab size: 4075
+Words in train file: 414295
+Alpha: 0.025000  Progress: 2.66%  Words/thread/sec: 205.43k  Alpha: 0.024336  Progress: 5.31%  Words/thread/sec: 407.19k  Alpha: 0.023672  Progress: 7.97%  Words/thread/sec: 568.56k  Alpha: 0.023009  Progress: 10.62%  Words/thread/sec: 526.76k  Alpha: 0.022345  Progress: 13.28%  Words/thread/sec: 407.71k  Alpha: 0.021681  Progress: 15.93%  Words/thread/sec: 400.68k  Alpha: 0.021017  Progress: 18.59%  Words/thread/sec: 375.02k  Alpha: 0.020354  Progress: 21.24%  Words/thread/sec: 417.98k  Alpha: 0.019690  Progress: 23.90%  Words/thread/sec: 454.74k  Alpha: 0.019026  Progress: 26.55%  Words/thread/sec: 441.06k  Alpha: 0.018362  Progress: 29.21%  Words/thread/sec: 436.21k  Alpha: 0.017698  Progress: 31.86%  Words/thread/sec: 433.23k  Alpha: 0.017035  Progress: 34.52%  Words/thread/sec: 453.52k  Alpha: 0.016371  Progress: 37.17%  Words/thread/sec: 466.16k  Alpha: 0.015707  Progress: 39.83%  Words/thread/sec: 445.48k  Alpha: 0.015043  Progress: 42.48%  Words/thread/sec: 468.27k  Alpha: 0.014380  Progress: 45.14%  Words/thread/sec: 447.04k  Alpha: 0.013716  Progress: 47.79%  Words/thread/sec: 455.57k  Alpha: 0.013052  Progress: 50.45%  Words/thread/sec: 469.36k  Alpha: 0.012388  Progress: 53.10%  Words/thread/sec: 475.34k  Starting training using file Dracula-BramStoker.txt
+100KVocab size: 2153
+Words in train file: 151936
+Starting training using file Emma-JaneAusten.txt
+100KVocab size: 1874
+Words in train file: 151147
+Starting training using file Frankenstein-MaryWollstonecraft.txt
+Vocab size: 1676
+Words in train file: 69303
+Starting training using file GreatExpectations-CharlesDickens.txt
+100KVocab size: 2560
+Words in train file: 177300
+Starting training using file Gulliver'sTravels-JonathanSwift.txt
+Vocab size: 1255
+Words in train file: 46736
+Starting training using file JaneEyre-CharlotteBronte.txt
+100KVocab size: 2988
+Words in train file: 173939
+Starting training using file LesMisérables-VictorHugo.txt
+100K200K300K400K500KVocab size: 5768
+Words in train file: 548529
+Alpha: 0.025000  Progress: 2.01%  Words/thread/sec: 256.12k  Alpha: 0.025000  Progress: 6.02%  Words/thread/sec: 544.44k  Alpha: 0.025000  Progress: 4.01%  Words/thread/sec: 429.44k  Alpha: 0.023496  Progress: 8.02%  Words/thread/sec: 486.90k  Alpha: 0.022995  Progress: 10.03%  Words/thread/sec: 495.00k  Alpha: 0.022493  Progress: 12.03%  Words/thread/sec: 556.76k  Alpha: 0.021992  Progress: 14.04%  Words/thread/sec: 540.48k  Alpha: 0.021491  Progress: 16.04%  Words/thread/sec: 600.08k  Alpha: 0.020989  Progress: 18.05%  Words/thread/sec: 562.33k  Alpha: 0.020488  Progress: 20.05%  Words/thread/sec: 410.58k  Alpha: 0.017480  Progress: 32.09%  Words/thread/sec: 559.76k  Alpha: 0.020488  Progress: 22.06%  Words/thread/sec: 439.76k  Alpha: 0.020488  Progress: 24.06%  Words/thread/sec: 445.63k  Alpha: 0.020488  Progress: 26.07%  Words/thread/sec: 481.69k  Alpha: 0.020488  Progress: 28.08%  Words/thread/sec: 505.01k  Alpha: 0.020488  Progress: 30.08%  Words/thread/sec: 525.95k  Alpha: 0.016979  Progress: 34.09%  Words/thread/sec: 467.58k  Alpha: 0.016477  Progress: 36.10%  Words/thread/sec: 489.88k  Alpha: 0.015976  Progress: 38.10%  Words/thread/sec: 503.46k  Alpha: 0.015475  Progress: 40.11%  Words/thread/sec: 527.48k  Alpha: 0.014973  Progress: 42.11%  Words/thread/sec: 544.10k  Alpha: 0.014472  Progress: 44.12%  Words/thread/sec: 562.33k  Alpha: 0.013971  Progress: 46.12%  Words/thread/sec: 587.10k  Alpha: 0.013469  Progress: 48.13%  Words/thread/sec: 600.58k  Alpha: 0.012968  Progress: 50.13%  Words/thread/sec: 616.21k  Alpha: 0.012467  Progress: 52.14%  Words/thread/sec: 620.23k  Alpha: 0.011965  Progress: 54.14%  Words/thread/sec: 642.78k  Alpha: 0.011464  Progress: 56.15%  Words/thread/sec: 655.08k  Alpha: 0.010962  Progress: 58.16%  Words/thread/sec: 641.35k  Alpha: 0.010461  Progress: 60.16%  Words/thread/sec: 649.27k  Alpha: 0.009960  Progress: 62.17%  Words/thread/sec: 646.76k  Alpha: 0.009458  Progress: 64.17%  Words/thread/sec: 618.70k  Alpha: 0.008957  Progress: 66.18%  Words/thread/sec: 625.63k  Alpha: 0.007453  Progress: 72.19%  Words/thread/sec: 648.78k  Alpha: 0.006952  Progress: 74.20%  Words/thread/sec: 658.29k  Alpha: 0.006450  Progress: 76.20%  Words/thread/sec: 663.83k  Alpha: 0.005949  Progress: 78.21%  Words/thread/sec: 673.11k  Alpha: 0.008957  Progress: 68.18%  Words/thread/sec: 643.62k  Alpha: 0.005448  Progress: 80.21%  Words/thread/sec: 680.11k  Alpha: 0.008957  Progress: 70.19%  Words/thread/sec: 632.30k  Starting training using file Leviathan-ThomasHobbes.txt
+100K200KVocab size: 2329
+Words in train file: 205284
+Starting training using file Metamorphosis-FranzKafka.txt
+Vocab size: 587
+Words in train file: 19562
+Starting training using file MobyDick;orTheWhale-HermanMelville.txt
+100K200KVocab size: 3821
+Words in train file: 205409
+Starting training using file OliverTwist-CharlesDickens.txt
+100KVocab size: 2532
+Words in train file: 149331
+Starting training using file ParadiseLost-JohnMilton.txt
+Vocab size: 1950
+Words in train file: 70732
+Starting training using file PeterPan-JamesM.Barrie.txt
+Vocab size: 1013
+Words in train file: 43412
+Starting training using file PrideandPrejudice-JaneAusten.txt
+100KVocab size: 1702
+Words in train file: 117574
+Starting training using file Pygmalion-GeorgeBernardShaw.txt
+Vocab size: 778
+Words in train file: 29209
+Starting training using file RomeoandJuliet-WilliamShakespeare.txt
+Vocab size: 697
+Words in train file: 22087
+Starting training using file SecondTreatiseofGovernment-JohnLocke.txt
+Vocab size: 1051
+Words in train file: 55322
+Starting training using file SenseandSensibility-JaneAusten.txt
+100KVocab size: 1697
+Words in train file: 113123
+Starting training using file SongsofInnocenceandSongsofExperience-WilliamBlake.txt
+Vocab size: 241
+Words in train file: 4207
+Starting training using file TheAdventuresofSherlockHolmes-ArthurConanDoyle.txt
+100KVocab size: 1866
+Words in train file: 97381
+Starting training using file TheAdventuresofTomSawyer-MarkTwain.txt
+Vocab size: 1630
+Words in train file: 68463
+Starting training using file TheBrothersKaramazov-FyodorDostoyevsky.txt
+100K200K300KVocab size: 3431
+Words in train file: 352640
+Alpha: 0.025000  Progress: 3.12%  Words/thread/sec: 208.29k  Alpha: 0.024220  Progress: 6.24%  Words/thread/sec: 414.63k  Alpha: 0.023440  Progress: 9.36%  Words/thread/sec: 615.72k  Alpha: 0.022661  Progress: 12.48%  Words/thread/sec: 786.05k  Alpha: 0.021881  Progress: 15.60%  Words/thread/sec: 346.43k  Alpha: 0.021101  Progress: 18.72%  Words/thread/sec: 334.10k  Alpha: 0.020321  Progress: 21.84%  Words/thread/sec: 298.47k  Alpha: 0.019541  Progress: 24.95%  Words/thread/sec: 337.52k  Alpha: 0.018761  Progress: 28.07%  Words/thread/sec: 365.57k  Alpha: 0.017982  Progress: 31.19%  Words/thread/sec: 386.53k  Alpha: 0.017202  Progress: 34.31%  Words/thread/sec: 413.56k  Alpha: 0.016422  Progress: 37.43%  Words/thread/sec: 444.64k  Alpha: 0.015642  Progress: 40.55%  Words/thread/sec: 455.50k  Alpha: 0.014862  Progress: 43.67%  Words/thread/sec: 480.27k  Alpha: 0.014082  Progress: 46.79%  Words/thread/sec: 507.25k  Alpha: 0.013303  Progress: 49.91%  Words/thread/sec: 538.01k  Alpha: 0.012523  Progress: 53.03%  Words/thread/sec: 567.31k  Alpha: 0.011743  Progress: 56.15%  Words/thread/sec: 560.79k  Alpha: 0.010963  Progress: 59.27%  Words/thread/sec: 579.22k  Alpha: 0.010183  Progress: 62.39%  Words/thread/sec: 596.68k  Starting training using file TheCompleteWorksofWilliamShakespeare-WilliamShakespeare.txt
+100K200K300K400K500K600K700K800KVocab size: 6975
+Words in train file: 879687
+Alpha: 0.025000  Progress: 1.25%  Words/thread/sec: 411.94k  Alpha: 0.024687  Progress: 2.50%  Words/thread/sec: 321.57k  Alpha: 0.024375  Progress: 3.75%  Words/thread/sec: 465.58k  Alpha: 0.024062  Progress: 5.00%  Words/thread/sec: 602.06k  Alpha: 0.023750  Progress: 6.25%  Words/thread/sec: 498.89k  Alpha: 0.023437  Progress: 7.50%  Words/thread/sec: 548.48k  Alpha: 0.023124  Progress: 8.75%  Words/thread/sec: 619.91k  Alpha: 0.022812  Progress: 10.00%  Words/thread/sec: 558.91k  Alpha: 0.022499  Progress: 11.25%  Words/thread/sec: 574.02k  Alpha: 0.022187  Progress: 12.50%  Words/thread/sec: 564.04k  Alpha: 0.021874  Progress: 13.75%  Words/thread/sec: 586.60k  Alpha: 0.021561  Progress: 15.01%  Words/thread/sec: 614.63k  Alpha: 0.021249  Progress: 16.26%  Words/thread/sec: 627.74k  Alpha: 0.020936  Progress: 17.51%  Words/thread/sec: 633.30k  Alpha: 0.020623  Progress: 18.76%  Words/thread/sec: 628.73k  Alpha: 0.020311  Progress: 20.01%  Words/thread/sec: 636.34k  Alpha: 0.019998  Progress: 21.26%  Words/thread/sec: 641.64k  Alpha: 0.019686  Progress: 22.51%  Words/thread/sec: 516.55k  Alpha: 0.019373  Progress: 23.76%  Words/thread/sec: 531.75k  Alpha: 0.019060  Progress: 25.01%  Words/thread/sec: 555.01k  Alpha: 0.018748  Progress: 26.26%  Words/thread/sec: 570.41k  Alpha: 0.018435  Progress: 27.51%  Words/thread/sec: 588.53k  Alpha: 0.018123  Progress: 28.76%  Words/thread/sec: 610.74k  Alpha: 0.017810  Progress: 30.01%  Words/thread/sec: 621.75k  Alpha: 0.017497  Progress: 31.26%  Words/thread/sec: 632.73k  Alpha: 0.017185  Progress: 32.51%  Words/thread/sec: 556.98k  Alpha: 0.016872  Progress: 33.76%  Words/thread/sec: 546.98k  Alpha: 0.016560  Progress: 35.01%  Words/thread/sec: 565.86k  Alpha: 0.016247  Progress: 36.26%  Words/thread/sec: 570.60k  Alpha: 0.015934  Progress: 37.51%  Words/thread/sec: 589.56k  Alpha: 0.015622  Progress: 38.76%  Words/thread/sec: 594.19k  Alpha: 0.015309  Progress: 40.01%  Words/thread/sec: 596.42k  Alpha: 0.014996  Progress: 41.26%  Words/thread/sec: 597.51k  Alpha: 0.014684  Progress: 42.52%  Words/thread/sec: 606.88k  Alpha: 0.014371  Progress: 43.77%  Words/thread/sec: 606.27k  Alpha: 0.014059  Progress: 45.02%  Words/thread/sec: 619.56k  Alpha: 0.013746  Progress: 46.27%  Words/thread/sec: 624.57k  Alpha: 0.013433  Progress: 47.52%  Words/thread/sec: 632.83k  Alpha: 0.013121  Progress: 48.77%  Words/thread/sec: 639.54k  Alpha: 0.012808  Progress: 50.02%  Words/thread/sec: 641.97k  Alpha: 0.012496  Progress: 51.27%  Words/thread/sec: 650.30k  Alpha: 0.012183  Progress: 52.52%  Words/thread/sec: 649.83k  Alpha: 0.011870  Progress: 53.77%  Words/thread/sec: 645.69k  Alpha: 0.011558  Progress: 55.02%  Words/thread/sec: 644.57k  Alpha: 0.011245  Progress: 56.27%  Words/thread/sec: 636.03k  Alpha: 0.010933  Progress: 57.52%  Words/thread/sec: 621.27k  Alpha: 0.010620  Progress: 58.77%  Words/thread/sec: 625.45k  Alpha: 0.010307  Progress: 60.02%  Words/thread/sec: 632.64k  Alpha: 0.009995  Progress: 61.27%  Words/thread/sec: 642.01k  Alpha: 0.009682  Progress: 62.52%  Words/thread/sec: 647.42k  Alpha: 0.009369  Progress: 63.77%  Words/thread/sec: 659.96k  Alpha: 0.009057  Progress: 65.02%  Words/thread/sec: 657.86k  Alpha: 0.008744  Progress: 66.27%  Words/thread/sec: 655.95k  Alpha: 0.008432  Progress: 67.52%  Words/thread/sec: 637.84k  Alpha: 0.008119  Progress: 68.77%  Words/thread/sec: 638.12k  Alpha: 0.007806  Progress: 70.02%  Words/thread/sec: 649.41k  Alpha: 0.007494  Progress: 71.28%  Words/thread/sec: 652.83k  Alpha: 0.007181  Progress: 72.53%  Words/thread/sec: 644.72k  Alpha: 0.006869  Progress: 73.78%  Words/thread/sec: 642.03k  Alpha: 0.006556  Progress: 75.03%  Words/thread/sec: 644.42k  Starting training using file TheCountofMonteCristo-AlexandreDumas.txt
+100K200K300K400KVocab size: 4375
+Words in train file: 459531
+Alpha: 0.025000  Progress: 2.39%  Words/thread/sec: 211.34k  Alpha: 0.024402  Progress: 4.79%  Words/thread/sec: 415.39k  Alpha: 0.023803  Progress: 7.18%  Words/thread/sec: 615.51k  Alpha: 0.023205  Progress: 9.57%  Words/thread/sec: 809.05k  Alpha: 0.022606  Progress: 11.97%  Words/thread/sec: 505.20k  Alpha: 0.022008  Progress: 14.36%  Words/thread/sec: 601.11k  Alpha: 0.021409  Progress: 16.76%  Words/thread/sec: 693.74k  Alpha: 0.020811  Progress: 19.15%  Words/thread/sec: 556.04k  Alpha: 0.020213  Progress: 21.54%  Words/thread/sec: 566.76k  Alpha: 0.019614  Progress: 23.94%  Words/thread/sec: 514.99k  Alpha: 0.019016  Progress: 26.33%  Words/thread/sec: 411.23k  Alpha: 0.018417  Progress: 28.72%  Words/thread/sec: 437.55k  Alpha: 0.017819  Progress: 31.12%  Words/thread/sec: 473.65k  Alpha: 0.017220  Progress: 33.51%  Words/thread/sec: 507.58k  Alpha: 0.016622  Progress: 35.91%  Words/thread/sec: 518.96k  Alpha: 0.016023  Progress: 38.30%  Words/thread/sec: 550.35k  Alpha: 0.015425  Progress: 40.69%  Words/thread/sec: 570.97k  Alpha: 0.014827  Progress: 43.09%  Words/thread/sec: 589.17k  Alpha: 0.014228  Progress: 45.48%  Words/thread/sec: 596.05k  Alpha: 0.013630  Progress: 47.87%  Words/thread/sec: 582.49k  Alpha: 0.013031  Progress: 50.27%  Words/thread/sec: 561.09k  Alpha: 0.012433  Progress: 52.66%  Words/thread/sec: 583.96k  Alpha: 0.011834  Progress: 55.06%  Words/thread/sec: 602.22k  Alpha: 0.011236  Progress: 57.45%  Words/thread/sec: 616.75k  Alpha: 0.010638  Progress: 59.84%  Words/thread/sec: 636.41k  Alpha: 0.010039  Progress: 62.24%  Words/thread/sec: 661.17k  Alpha: 0.009441  Progress: 64.63%  Words/thread/sec: 682.15k  Alpha: 0.008842  Progress: 67.02%  Words/thread/sec: 668.42k  Alpha: 0.008842  Progress: 69.42%  Words/thread/sec: 690.40k  Alpha: 0.008842  Progress: 74.21%  Words/thread/sec: 722.70k  Alpha: 0.008842  Progress: 71.81%  Words/thread/sec: 708.15k  Alpha: 0.006449  Progress: 76.60%  Words/thread/sec: 701.87k  Alpha: 0.005850  Progress: 78.99%  Words/thread/sec: 706.97k  Alpha: 0.005252  Progress: 81.39%  Words/thread/sec: 716.09k  Alpha: 0.004653  Progress: 83.78%  Words/thread/sec: 726.89k  Alpha: 0.004055  Progress: 86.17%  Words/thread/sec: 740.01k  Alpha: 0.003456  Progress: 88.57%  Words/thread/sec: 757.62k  Alpha: 0.002858  Progress: 90.96%  Words/thread/sec: 767.58k  Alpha: 0.002259  Progress: 93.36%  Words/thread/sec: 786.98k  Alpha: 0.001661  Progress: 95.75%  Words/thread/sec: 801.30k  Starting training using file The​​Divine​​Comedy-DanteAlighieri.txt
+Vocab size: 957
+Words in train file: 29459
+Starting training using file TheHoundoftheBaskervilles-ArthurConanDoyle.txt
+Vocab size: 1357
+Words in train file: 57188
+Starting training using file TheIliadofHomer-Homer.txt
+100KVocab size: 3263
+Words in train file: 178886
+Starting training using file TheImportanceofBeingEarnest-OscarWilde.txt
+Vocab size: 578
+Words in train file: 17995
+Starting training using file TheJungleBook-RudyardKipling.txt
+Vocab size: 1118
+Words in train file: 47136
+Starting training using file TheKingJamesBible.txt
+100K200K300K400K500K600K700KVocab size: 4188
+Words in train file: 780914
+Alpha: 0.025000  Progress: 1.41%  Words/thread/sec: 204.30k  Alpha: 0.024648  Progress: 4.23%  Words/thread/sec: 590.83k  Alpha: 0.023944  Progress: 5.63%  Words/thread/sec: 765.06k  Alpha: 0.024648  Progress: 4.23%  Words/thread/sec: 590.80k  Alpha: 0.023591  Progress: 7.04%  Words/thread/sec: 496.97k  Alpha: 0.023239  Progress: 8.45%  Words/thread/sec: 574.27k  Alpha: 0.022887  Progress: 9.86%  Words/thread/sec: 476.77k  Alpha: 0.022535  Progress: 11.27%  Words/thread/sec: 525.90k  Alpha: 0.022183  Progress: 12.68%  Words/thread/sec: 575.49k  Alpha: 0.021831  Progress: 14.09%  Words/thread/sec: 569.41k  Alpha: 0.021478  Progress: 15.49%  Words/thread/sec: 450.39k  Alpha: 0.021126  Progress: 16.90%  Words/thread/sec: 476.04k  Alpha: 0.020774  Progress: 18.31%  Words/thread/sec: 467.28k  Alpha: 0.020422  Progress: 19.72%  Words/thread/sec: 475.07k  Alpha: 0.020070  Progress: 21.13%  Words/thread/sec: 493.96k  Alpha: 0.019718  Progress: 22.54%  Words/thread/sec: 507.26k  Alpha: 0.019366  Progress: 23.95%  Words/thread/sec: 527.48k  Alpha: 0.019013  Progress: 25.35%  Words/thread/sec: 509.25k  Alpha: 0.018661  Progress: 26.76%  Words/thread/sec: 492.11k  Alpha: 0.018309  Progress: 28.17%  Words/thread/sec: 484.12k  Alpha: 0.017957  Progress: 29.58%  Words/thread/sec: 505.58k  Alpha: 0.017605  Progress: 30.99%  Words/thread/sec: 526.26k  Alpha: 0.017253  Progress: 32.40%  Words/thread/sec: 536.52k  Alpha: 0.016901  Progress: 33.81%  Words/thread/sec: 549.18k  Alpha: 0.016548  Progress: 35.22%  Words/thread/sec: 553.69k  Alpha: 0.016196  Progress: 36.62%  Words/thread/sec: 570.33k  Alpha: 0.015844  Progress: 38.03%  Words/thread/sec: 577.45k  Alpha: 0.015492  Progress: 39.44%  Words/thread/sec: 585.85k  Alpha: 0.015140  Progress: 40.85%  Words/thread/sec: 598.43k  Alpha: 0.014788  Progress: 42.26%  Words/thread/sec: 606.07k  Alpha: 0.014435  Progress: 43.67%  Words/thread/sec: 610.16k  Alpha: 0.014083  Progress: 45.08%  Words/thread/sec: 627.16k  Alpha: 0.013731  Progress: 46.48%  Words/thread/sec: 636.63k  Alpha: 0.013379  Progress: 47.89%  Words/thread/sec: 648.99k  Alpha: 0.013027  Progress: 49.30%  Words/thread/sec: 647.92k  Alpha: 0.012675  Progress: 50.71%  Words/thread/sec: 616.11k  Alpha: 0.012323  Progress: 52.12%  Words/thread/sec: 622.23k  Alpha: 0.011970  Progress: 53.53%  Words/thread/sec: 632.35k  Alpha: 0.011618  Progress: 54.94%  Words/thread/sec: 634.85k  Alpha: 0.011266  Progress: 56.34%  Words/thread/sec: 622.82k  Alpha: 0.010914  Progress: 57.75%  Words/thread/sec: 616.94k  Alpha: 0.010562  Progress: 59.16%  Words/thread/sec: 630.31k  Alpha: 0.010210  Progress: 60.57%  Words/thread/sec: 635.37k  Alpha: 0.009858  Progress: 61.98%  Words/thread/sec: 646.98k  Alpha: 0.009505  Progress: 63.39%  Words/thread/sec: 651.66k  Alpha: 0.009153  Progress: 64.80%  Words/thread/sec: 664.76k  Alpha: 0.008801  Progress: 66.20%  Words/thread/sec: 659.35k  Alpha: 0.008449  Progress: 67.61%  Words/thread/sec: 668.03k  Alpha: 0.008097  Progress: 69.02%  Words/thread/sec: 663.43k  Alpha: 0.007745  Progress: 70.43%  Words/thread/sec: 647.06k  Alpha: 0.007392  Progress: 71.84%  Words/thread/sec: 654.20k  Alpha: 0.007040  Progress: 73.25%  Words/thread/sec: 658.85k  Alpha: 0.006688  Progress: 74.66%  Words/thread/sec: 652.86k  Alpha: 0.006336  Progress: 76.06%  Words/thread/sec: 661.49k  Alpha: 0.005984  Progress: 77.47%  Words/thread/sec: 669.31k  Alpha: 0.005632  Progress: 78.88%  Words/thread/sec: 658.99k  Alpha: 0.005280  Progress: 80.29%  Words/thread/sec: 657.97k  Alpha: 0.004927  Progress: 81.70%  Words/thread/sec: 664.48k  Alpha: 0.004575  Progress: 83.11%  Words/thread/sec: 675.35k  Alpha: 0.004223  Progress: 84.52%  Words/thread/sec: 668.95k  Starting training using file TheLifeandAdventuresofRobinsonCrusoe-DanielDefoe.txt
+100K200KVocab size: 2450
+Words in train file: 228614
+Alpha: 0.025000  Progress: 4.81%  Words/thread/sec: 208.29k  Alpha: 0.023797  Progress: 9.62%  Words/thread/sec: 410.20k  Alpha: 0.022594  Progress: 14.43%  Words/thread/sec: 598.43k  Alpha: 0.021391  Progress: 19.25%  Words/thread/sec: 551.97k  Alpha: 0.020188  Progress: 24.06%  Words/thread/sec: 448.23k  Alpha: 0.018986  Progress: 28.87%  Words/thread/sec: 448.98k  Alpha: 0.017783  Progress: 33.68%  Words/thread/sec: 522.56k  Alpha: 0.016580  Progress: 38.49%  Words/thread/sec: 579.40k  Alpha: 0.015377  Progress: 43.30%  Words/thread/sec: 573.58k  Alpha: 0.014174  Progress: 48.12%  Words/thread/sec: 624.56k  Alpha: 0.012971  Progress: 52.93%  Words/thread/sec: 665.23k  Alpha: 0.011768  Progress: 57.74%  Words/thread/sec: 707.16k  Alpha: 0.010565  Progress: 62.55%  Words/thread/sec: 669.78k  Alpha: 0.009362  Progress: 67.36%  Words/thread/sec: 692.74k  Alpha: 0.008159  Progress: 72.17%  Words/thread/sec: 705.03k  Alpha: 0.006957  Progress: 76.99%  Words/thread/sec: 719.79k  Alpha: 0.005754  Progress: 81.80%  Words/thread/sec: 757.55k  Alpha: 0.004551  Progress: 86.61%  Words/thread/sec: 800.23k  Alpha: 0.003348  Progress: 91.42%  Words/thread/sec: 815.99k  Alpha: 0.002145  Progress: 96.23%  Words/thread/sec: 852.49k  Starting training using file TheMysteriousAffairatStyles-AgathaChristie.txt
+Vocab size: 1267
+Words in train file: 54192
+Starting training using file ThePictureofDorianGray-OscarWilde.txt
+Vocab size: 1579
+Words in train file: 75387
+Starting training using file ThePrince-NicoloMachiavelli.txt
+Vocab size: 1120
+Words in train file: 45027
+Starting training using file TheRepublic-Plato.txt
+100K200KVocab size: 2520
+Words in train file: 208157
+Starting training using file TheReturnofSherlockHolmes-ArthurConanDoyle.txt
+100KVocab size: 1977
+Words in train file: 105980
+Starting training using file TheScarletLetter-NathanielHawthorne.txt
+Vocab size: 2059
+Words in train file: 78511
+Starting training using file TheSecretAdversary-AgathaChristie.txt
+Vocab size: 1499
+Words in train file: 71225
+Starting training using file TheSignoftheFour-ArthurConanDoyle.txt
+Vocab size: 1104
+Words in train file: 40422
+Starting training using file The​​Strange​​Case​​ofDrJekyllandMrHyde-RobertLouisStevensfon.txt
+Vocab size: 795
+Words in train file: 24282
+Starting training using file TheTimeMachine-HerbertGeorgeWells.txt
+Vocab size: 950
+Words in train file: 30334
+Starting training using file The​WaroftheWorlds-HerbertGeorgeWells.txt
+Vocab size: 1438
+Words in train file: 53683
+Starting training using file TheWonderfulWizardofOz-L.FrankBaum.txt
+Vocab size: 929
+Words in train file: 39627
+Starting training using file TheWorksofEdgarAllanPoeV1-EdgarAllanPoe.txt
+Vocab size: 2085
+Words in train file: 84979
+Starting training using file TheWorksofEdgarAllanPoev2-EdgarAllanPoe.txt
+Vocab size: 2229
+Words in train file: 88276
+Starting training using file ThreeMeninaBoat-JeromeK.Jerome.txt
+Vocab size: 1431
+Words in train file: 62121
+Starting training using file ThroughtheLooking-Glass-CharlseDogson.txt
+Vocab size: 723
+Words in train file: 27280
+Starting training using file TreasureIsland-RobertLouisStevenson.txt
+Vocab size: 1429
+Words in train file: 65039
+Starting training using file Ulysses-JamesJoyce.txt
+100K200KVocab size: 4830
+Words in train file: 242916
+Alpha: 0.025000  Progress: 4.53%  Words/thread/sec: 211.17k  Alpha: 0.023868  Progress: 9.06%  Words/thread/sec: 412.16k  Alpha: 0.022736  Progress: 13.58%  Words/thread/sec: 609.23k  Alpha: 0.021604  Progress: 18.11%  Words/thread/sec: 463.11k  Alpha: 0.020472  Progress: 22.64%  Words/thread/sec: 503.70k  Alpha: 0.019340  Progress: 27.17%  Words/thread/sec: 596.33k  Alpha: 0.018208  Progress: 31.70%  Words/thread/sec: 666.82k  Alpha: 0.017075  Progress: 36.23%  Words/thread/sec: 632.74k  Alpha: 0.015943  Progress: 40.75%  Words/thread/sec: 684.67k  Alpha: 0.014811  Progress: 45.28%  Words/thread/sec: 610.10k  Alpha: 0.013679  Progress: 49.81%  Words/thread/sec: 588.77k  Alpha: 0.012547  Progress: 54.34%  Words/thread/sec: 619.30k  Alpha: 0.011415  Progress: 58.87%  Words/thread/sec: 629.09k  Alpha: 0.010283  Progress: 63.40%  Words/thread/sec: 669.16k  Alpha: 0.009151  Progress: 67.92%  Words/thread/sec: 636.05k  Alpha: 0.008019  Progress: 72.45%  Words/thread/sec: 646.46k  Alpha: 0.006887  Progress: 76.98%  Words/thread/sec: 664.08k  Alpha: 0.005755  Progress: 81.51%  Words/thread/sec: 700.00k  Alpha: 0.004623  Progress: 86.04%  Words/thread/sec: 738.35k  Alpha: 0.003491  Progress: 90.57%  Words/thread/sec: 766.75k  Starting training using file Utopia-ThomasMore.txt
+Vocab size: 989
+Words in train file: 39516
+Starting training using file Walden,andOnTheDutyOfCivilDisobedience-HenryDavidThoreau.txt
+100KVocab size: 2312
+Words in train file: 106361
+Starting training using file WarandPeace-LeoTolstoy.txt
+100K200K300K400K500KVocab size: 5031
+Words in train file: 570351
+Alpha: 0.025000  Progress: 1.93%  Words/thread/sec: 278.61k  Alpha: 0.024518  Progress: 3.86%  Words/thread/sec: 538.95k  Alpha: 0.024036  Progress: 5.79%  Words/thread/sec: 454.60k  Alpha: 0.023554  Progress: 7.71%  Words/thread/sec: 457.73k  Alpha: 0.023071  Progress: 9.64%  Words/thread/sec: 521.81k  Alpha: 0.022589  Progress: 11.57%  Words/thread/sec: 582.11k  Alpha: 0.022107  Progress: 13.50%  Words/thread/sec: 478.36k  Alpha: 0.021625  Progress: 15.43%  Words/thread/sec: 418.81k  Alpha: 0.021143  Progress: 17.36%  Words/thread/sec: 432.54k  Alpha: 0.020661  Progress: 19.29%  Words/thread/sec: 440.05k  Alpha: 0.020178  Progress: 21.21%  Words/thread/sec: 418.84k  Alpha: 0.019696  Progress: 23.14%  Words/thread/sec: 424.86k  Alpha: 0.019214  Progress: 25.07%  Words/thread/sec: 459.38k  Alpha: 0.018732  Progress: 27.00%  Words/thread/sec: 453.92k  Alpha: 0.018250  Progress: 28.93%  Words/thread/sec: 486.21k  Alpha: 0.017768  Progress: 30.86%  Words/thread/sec: 494.90k  Alpha: 0.017285  Progress: 32.79%  Words/thread/sec: 506.34k  Alpha: 0.016803  Progress: 34.72%  Words/thread/sec: 526.48k  Alpha: 0.016321  Progress: 36.64%  Words/thread/sec: 544.71k  Alpha: 0.015839  Progress: 38.57%  Words/thread/sec: 569.50k  Alpha: 0.015357  Progress: 40.50%  Words/thread/sec: 588.29k  Alpha: 0.014875  Progress: 42.43%  Words/thread/sec: 600.73k  Alpha: 0.014393  Progress: 44.36%  Words/thread/sec: 621.89k  Alpha: 0.013910  Progress: 46.29%  Words/thread/sec: 630.39k  Alpha: 0.013428  Progress: 48.22%  Words/thread/sec: 634.31k  Alpha: 0.012946  Progress: 50.14%  Words/thread/sec: 645.29k  Alpha: 0.012464  Progress: 52.07%  Words/thread/sec: 648.75k  Alpha: 0.011982  Progress: 54.00%  Words/thread/sec: 627.45k  Alpha: 0.011500  Progress: 55.93%  Words/thread/sec: 622.95k  Alpha: 0.011017  Progress: 57.86%  Words/thread/sec: 635.28k  Alpha: 0.010535  Progress: 59.79%  Words/thread/sec: 619.61k  Alpha: 0.010053  Progress: 61.72%  Words/thread/sec: 613.94k  Alpha: 0.009571  Progress: 63.64%  Words/thread/sec: 624.83k  Alpha: 0.009089  Progress: 65.57%  Words/thread/sec: 642.16k  Alpha: 0.008607  Progress: 67.50%  Words/thread/sec: 655.33k  Alpha: 0.008124  Progress: 69.43%  Words/thread/sec: 663.79k  Alpha: 0.007642  Progress: 71.36%  Words/thread/sec: 673.27k  Alpha: 0.007160  Progress: 73.29%  Words/thread/sec: 680.99k  Alpha: 0.006678  Progress: 75.22%  Words/thread/sec: 678.94k  Alpha: 0.006196  Progress: 77.15%  Words/thread/sec: 676.80k  Starting training using file WutheringHeights-EmilyBronte.txt
+100KVocab size: 2189
+Words in train file: 108109
