@@ -41,11 +41,11 @@ def graficoTSNE(fig,ax,arquivo,color):
 	word_vectors = KeyedVectors.load_word2vec_format(str(arquivo)+'.bin', binary=True)  # C binary format
 	labels = list(word_vectors.vocab.keys())
 
-	matriz =[]
-	for key in word_vectors.vocab:
-		matriz.append(word_vectors[key])
+	#matriz =[]
+	#for key in word_vectors.vocab:
+	#	matriz.append(word_vectors[key])
 
-	#matriz = geraMatriz(word_vectors)
+	matriz = geraMatriz(word_vectors)
 
 	vis_data = TSNE(init='pca',perplexity=50.0).fit_transform(matriz)
 
@@ -110,8 +110,7 @@ def main():
   nomeSaida = '-'.join(arrayLivros)
 
 
-  mpld3.save_html(fig, "../saida/TSNE_"+nomeSaida+".html")
-  fig.savefig(str('../saida/TSNE_'+nomeSaida+'.png'))
+  fig.savefig(str('../saidaTP/TSNE_'+nomeSaida+'.png'))
   mpld3.show()
 
   plt.close(fig)

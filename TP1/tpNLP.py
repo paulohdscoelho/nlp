@@ -45,5 +45,6 @@ intersection = keysA & keysB
 matrizLivro1 = geraMatriz(intersection,word_vectors1)
 matrizLivro2 = geraMatriz(intersection,word_vectors2)
 
+print("Distância entre os livros " + bin1.replace('.bin','') + " e " + bin2.replace('.bin','')+':')
 print("{0:.2f}".format(round(distanciaPadrao(matrizLivro1,matrizLivro2),2)))
 
