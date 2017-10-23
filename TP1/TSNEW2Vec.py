@@ -65,7 +65,7 @@ def graficoTSNE(fig,ax,arquivo,color):
 
 	scale = 30.0 
 	scatter = ax.scatter(vis_x, vis_y, c=color, cmap='gray',s=scale, label=arquivo,
-	           alpha=0.9, edgecolors='none')
+	           alpha=0.9, edgecolors='none',encoding='utf-8')
 
 	ax.legend()
 	ax.grid(True)

@@ -1,6 +1,7 @@
 #coding=utf-8
 import sys
 import json
+import re as re
 
 with open('scraperCatalunha.json','r') as textEntrada:
     json_data = textEntrada.readline()
@@ -9,8 +10,9 @@ json_data = json.loads(json_data)
 
 for tweet in json_data:
     with open('tweetsCatalunhaPassados.txt','a') as saida:
-        if('RT @' not in tweet['text'] and ' @' not in tweet['text'] and 'https' not in tweet['text'] and 'http' not in tweet['text']):
-            text = tweet['timestamp'] +'\t' + str(tweet['text']) + '\t'
+        if('RT @' not in tweet['text']):
+            text = str(tweet['text'])
+            text = re.sub(r"(?:\@|https?\://)\S+", "", text)
             print(str(text))
             saida.write(str(text)+'\n')
 
