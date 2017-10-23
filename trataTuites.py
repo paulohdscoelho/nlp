@@ -3,6 +3,9 @@ import sys
 import json
 import re as re
 
+#sed -f <(sed 's/.*/s|\\\<&\\\>||g/' stopwords.txt) tweetsCatalunhaPassados.txt > tweetsCatalunha.txt
+
+
 with open('scraperCatalunha.json','r') as textEntrada:
     json_data = textEntrada.readline()
     
