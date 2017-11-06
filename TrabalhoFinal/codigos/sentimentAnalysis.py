@@ -2,12 +2,22 @@
 
 import indicoio
 import numpy as np
+import sys
 
-indicoio.config.api_key = '3bed82d6a725495d0adee82b70b3a6f1'
+indicoio.config.api_key = '8c4677945e91b7437e74356d854d3c57'
 
 
-# batch example
+with open(sys.argv[1],encoding = 'utf-8') as textEntrada:
+	for tweet in textEntrada:
+		try:
+			sentiment = indicoio.sentiment(tweet,language='spanish')
+			if sentiment > 0.5:
+				print("pos\t",tweet)
+			if sentiment < 0.5:
+				print("neg\t",tweet)
+			if sentiment == 0.5:
+				print("mid\t",tweet)
 
-for tweet in matrizTweets:
-
-	sentiment = indicoio.sentiment(tweet,language='spanish')
+		except Exception as e:
+			print(e)
+			pass

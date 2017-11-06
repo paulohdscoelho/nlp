@@ -23,20 +23,15 @@ geolocator = Nominatim()
 
 api = tweepy.API(auth)
 
-cursor = tweepy.Cursor(api.search,q=((u'cataluña' or 'calatayud' or 'cataluna' or 'catalonia' or'catalunha') and('referendum' or'referendo' or u'referéndum')), since=str(sys.argv[1]),until=str(sys.argv[2])).items()
+cursor = tweepy.Cursor(api.search,q=((u'cataluña' or 'calatayud' or 'cataluna' or 'catalonia' or'catalunha') and('referendum' or'referendo' or u'referéndum')), since='2017-10-24',until='2017-10-31').items()
 
 while True:
     try:
         tweet = cursor.next()
-        with open('tweetsPast-'+str(sys.argv[txt])+'.1','a') as saida:
-            if(tweet.retweeted == False and tweet.lang == u'es' and 'RT @' not in tweet.text and '@' not in tweet.text and ' RT ' not in tweet.text and 'https' not in tweet.text):
-                if tweet.user.location != None:
-                    text = str(tweet.created_at) +'\t' + tweet.text + '\t' + tweet.user.location
-                else:
-                    text = str(tweet.created_at) +'\t' + tweet.text + '\t' + 'None'
-                print(str(text))
-                saida.write(str(text)+'\n')
-                del text
+        with open('tweetsPast-Catalunia.txt','a') as saida:
+            if(tweet.retweeted == False and tweet.lang == u'en' and 'RT @' not in tweet.text and '@' not in tweet.text and ' RT ' not in tweet.text and 'https' not in tweet.text):
+                print(str(tweet.text))
+                saida.write(str(tweet.text.replace('\n',' ').replace('\t',' '))+'\n')
             del tweet
     except BaseException as e:
         print(e)

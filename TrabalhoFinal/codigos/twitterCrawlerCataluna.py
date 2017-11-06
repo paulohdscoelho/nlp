@@ -19,17 +19,12 @@ geolocator = Nominatim()
 class MyListener(StreamListener):
     def on_data(self, data):
         try:
-            with open('dadosTwitter.txt','a') as saida:
+            with open('dadosTwitterCat.txt','a') as saida:
                 json_data = json.loads(data)
-                if json_data['geo'] != None:
-                    if json_data['geo']['coordinates'] != None:
-                        coordinate = json_data['geo']['coordinates']            
-                        coordinate = str(coordinate[0]) + ', ' + str(coordinate[1])
-                        location = geolocator.reverse(coordinate)
-                        array = location.address.encode('utf-8').split(',')
-                        text = hora = json_data['created_at'] +'\t' + json_data['text'].encode('utf-8') + '\t' + str(location.address).encode('utf-8').strip()
-                        print text.encode('utf-8')
-                        saida.write(text.encode('utf-8')+'\n')
+       
+                text = json_data['text'].replace('\n'," ")
+                print(text)
+                saida.write(text+'\n')
             return True
         except BaseException as e:
             print("Error on_data: %s" % str(e))

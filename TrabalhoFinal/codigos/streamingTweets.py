@@ -8,11 +8,11 @@ with open('scraperCatalunha.json','r') as textEntrada:
 json_data = json.loads(json_data)
 
 for tweet in json_data:
-    with open('tweetsCatalunhaPassados.txt','a') as saida:
+    with open('tweetsCatalunhaStream.txt','a') as saida:
         if('RT @' not in tweet['text'] and ' @' not in tweet['text'] and 'https' not in tweet['text'] and 'http' not in tweet['text']):
-            text = tweet['timestamp'] +'\t' + str(tweet['text']) + '\t'
+            text = str(tweet['text']) + '\t'
             print(str(text))
-            saida.write(str(text)+'\n')
+            saida.write(str(text).replace('\n',' ').replace('\r',' ')+'\n')
 
     
     
