@@ -1,5 +1,6 @@
 import requests
 import sys
+from nltk.corpus import stopwords
 
 url = "http://api.meaningcloud.com/sentiment-2.1"
 headers = {'content-type': 'application/x-www-form-urlencoded'}

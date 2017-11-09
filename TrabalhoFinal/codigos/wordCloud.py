@@ -8,6 +8,7 @@ Generating a square wordcloud from the US constitution using default arguments.
 from os import path
 from wordcloud import WordCloud
 import sys
+from nltk.corpus import stopwords
 
 #d = path.dirname(__file__)
 
@@ -26,7 +27,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 
 # lower max_font_size
-wordcloud = WordCloud(max_font_size=40).generate(text)
+wordcloud = WordCloud(background_color='white',width=600,height=400,max_font_size=50).generate(text)
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
