@@ -18,7 +18,7 @@ from sklearn import svm
 
 
 def leitura_arquivo(path):
-    f1 = open(path, 'r', encoding='utf8')
+    f1 = open(path, 'r')
     text = []
     tags = []
     word_tags = defaultdict(list)

@@ -16,7 +16,7 @@ from scipy import sparse
 
 
 def leitura_arquivo(path):
-    f1 = open(path, 'r', encoding='utf8')
+    f1 = open(path, 'r')
     text = [[' ',' '],[' ',' '],[' ',' ']]
     tags = []
     #leio arquivo e crio uma lista [word,tag]
