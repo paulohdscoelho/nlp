@@ -1,5 +1,5 @@
 #coding=utf-8
-
+import nltk
 from nltk.tag import UnigramTagger
 from nltk.tag import BigramTagger
 from nltk import tokenize
@@ -12,29 +12,23 @@ def train(tagger, sent):
 	#return resultado
 
 dados_treino = mac_morpho.tagged_sents()[:1000]
-
-dicTags = {}
-
-for e in dados_treino:
-	print('Dado: ',e)
-	#dicTags[e[1]] = []
-
-print(dicTags)
+dados_teste = mac_morpho.tagged_sents()[1000:1200]
 
 
-print(dados_treino)
-#tagged_text =  open('macmorpho-test.txt').read()
-#tokens = tokenize.sent_tokenize(tagged_text)
+tagSet = set(['NPROP', 'PREP+PRO-KS', 'KS', 'PREP+PROADJ', 'PREP', 'PREP+PROPESS', 'NUM', 'KC', 'PROADJ', 'PREP+ART', 'IN', 'ART', 'PREP+PROSUB', 'PROPESS', 'PCP', 'ADV-KS', 'PRO-KS', 'PDEN', 'PU', 'PROSUB', 'ADV', 'V', 'PREP+ADV', 'N', 'CUR', 'ADJ'])
 
-print("treinando")
-tagger = UnigramTagger(dados_treino)
+print("Tag\tAccuracy with Unigram\tAccuracy with Bigram")
 
-tagger2 = BigramTagger(dados_treino, backoff=tagger)
+for tag in tagSet:
+	tag_train = nltk.DefaultTagger(tag)
+	tagger = UnigramTagger(dados_treino,backoff=tag_train)
+	
+	accuacyUnigram = tagger.evaluate(dados_teste)
 
-print("terminou")
-print(tagger2.evaluate(mac_morpho.tagged_sents()[1000:1200]))
-
-
+	tagger2 = BigramTagger(dados_treino, backoff=tagger)
+	
+	accuacyBigram = tagger2.evaluate(dados_teste)
+	print(tag,'\t',accuacyUnigram,'\t',accuacyBigram)
 
 '''teste = open("macmorpho-test.txt").read()
 teste_tokens = tokenize.word_tokenize(teste)

@@ -61,7 +61,7 @@ get_ipython().run_cell_magic('time', '', "path = 'macmorpho-train.txt'\ntext,tag
 # In[4]:
 
 
-get_ipython().run_cell_magic('time', '', 'model = wv(text.reshape(-1,1), size = 1500, min_count=1, window=10, iter=10)')
+get_ipython().run_cell_magic('time', '', 'model = wv(text.reshape(-1,1), size = 400, min_count=1, window=10, iter=10)')
 
 
 # In[5]:
@@ -125,7 +125,7 @@ for element in enumerate(set(tags)):
 
     # In[10]:
 
-    get_ipython().run_cell_magic('time', '', 'X = X_train[:20000]\ny = Y_train[:20000]')
+    get_ipython().run_cell_magic('time', '', 'X = X_train[:10000]\ny = Y_train[:10000]')
 
     # In[11]:
 

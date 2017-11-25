@@ -155,5 +155,5 @@ len(flags_teste))
 # In[17]:
 
 
-clf.score(mtx,flags_teste)
+print('Cross validation: ',clf.score(mtx,flags_teste))
 
