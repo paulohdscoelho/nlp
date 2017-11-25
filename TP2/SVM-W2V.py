@@ -58,7 +58,6 @@ def cria_dict_num(num_of_words):
 
 get_ipython().run_cell_magic('time', '', "path = 'macmorpho-train.txt'\ntext,tags, word_tags = leitura_arquivo(path)\ntext = np.array(text)")
 
-
 # In[4]:
 
 
@@ -106,73 +105,53 @@ get_ipython().run_cell_magic('time', '', 'for i in range(len(text)):\n    mtx[wo
 
 # In[9]:
 
+for element in enumerate(set(tags)):
+    indx = element[0]
+    etiqueta = element[1]
+    Y_train = []
+    print("Training and evaluating for Tag ",etiqueta,' using rbf')
 
-Y_train = []
-for i in range(len(vec_word)):
-    Y_train.append(mtx[i,1])
+    for i in range(len(vec_word)):
+        Y_train.append(mtx[i,indx])
+    # In[10]:
+    '''%%time
+    clf = svm.SVC()
+    clf.fit(X_train,Y_train)'''
 
+    # In[11]:
 
-# In[10]:
+    '''teste = clf.score(X_train[:150], Y_train[:150])
+    teste'''
 
+    # In[10]:
 
-'''%%time
-clf = svm.SVC()
-clf.fit(X_train,Y_train)'''
+    get_ipython().run_cell_magic('time', '', 'X = X_train[:20000]\ny = Y_train[:20000]')
 
+    # In[11]:
 
-# In[11]:
+    get_ipython().run_cell_magic('time', '', "svr_rbf = svm.SVC(kernel='rbf', C=1e3, gamma=0.1)\n#svr_lin = svm.SVC(kernel='linear', C=1e3)\n#svr_poly = svm.SVC(kernel='poly', C=1e3, degree=2)\ny_rbf = svr_rbf.fit(X, y)#.predict(X)\n#y_lin = svr_lin.fit(X, y)#.predict(X)\n#y_poly = svr_poly.fit(X, y)#.predict(X)")
 
+    # In[14]:
 
-'''teste = clf.score(X_train[:150], Y_train[:150])
-teste'''
+    get_ipython().run_cell_magic('time', '', 'clf = svm.SVC()\nclf.fit(X,y)')
 
+    # In[ ]:
 
-# In[10]:
+    '''print(y_lin.score(X,y),
+    y_poly.score(X,y),
+    y_rbf.score(X,y))'''
 
+    # In[ ]:
 
-get_ipython().run_cell_magic('time', '', 'X = X_train[:20000]\ny = Y_train[:20000]')
+    #print(y_poly.score(X,y))
 
+    # In[ ]:
 
-# In[11]:
+    #print(y_lin.score(X,y))
 
+    # In[16]:
+    print('Cross-Validation: ',clf.score(X,y))
 
-get_ipython().run_cell_magic('time', '', "svr_rbf = svm.SVC(kernel='rbf', C=1e3, gamma=0.1)\n#svr_lin = svm.SVC(kernel='linear', C=1e3)\n#svr_poly = svm.SVC(kernel='poly', C=1e3, degree=2)\ny_rbf = svr_rbf.fit(X, y)#.predict(X)\n#y_lin = svr_lin.fit(X, y)#.predict(X)\n#y_poly = svr_poly.fit(X, y)#.predict(X)")
+    # In[12]:
 
-
-# In[14]:
-
-
-get_ipython().run_cell_magic('time', '', 'clf = svm.SVC()\nclf.fit(X,y)')
-
-
-# In[ ]:
-
-
-'''print(y_lin.score(X,y),
-y_poly.score(X,y),
-y_rbf.score(X,y))'''
-
-
-# In[ ]:
-
-
-#print(y_poly.score(X,y))
-
-
-# In[ ]:
-
-
-#print(y_lin.score(X,y))
-
-
-# In[16]:
-
-
-print(clf.score(X,y))
-
-
-# In[12]:
-
-
-print(y_rbf.score(X,y))
-
+    print('Rbf Score: ',y_rbf.score(X,y))

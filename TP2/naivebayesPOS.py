@@ -12,8 +12,19 @@ def train(tagger, sent):
 	#return resultado
 
 dados_treino = mac_morpho.tagged_sents()[:1000]
-tagged_text =  open('macmorpho-test.txt').read()
-tokens = tokenize.sent_tokenize(tagged_text)
+
+dicTags = {}
+
+for e in dados_treino:
+	print('Dado: ',e)
+	#dicTags[e[1]] = []
+
+print(dicTags)
+
+
+print(dados_treino)
+#tagged_text =  open('macmorpho-test.txt').read()
+#tokens = tokenize.sent_tokenize(tagged_text)
 
 print("treinando")
 tagger = UnigramTagger(dados_treino)
