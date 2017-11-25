@@ -13,21 +13,18 @@ def train(tagger, sent):
 
 dados_treino = mac_morpho.tagged_sents()[:1000]
 dados_teste = mac_morpho.tagged_sents()[1000:1200]
-
-
 tagSet = set(['NPROP', 'PREP+PRO-KS', 'KS', 'PREP+PROADJ', 'PREP', 'PREP+PROPESS', 'NUM', 'KC', 'PROADJ', 'PREP+ART', 'IN', 'ART', 'PREP+PROSUB', 'PROPESS', 'PCP', 'ADV-KS', 'PRO-KS', 'PDEN', 'PU', 'PROSUB', 'ADV', 'V', 'PREP+ADV', 'N', 'CUR', 'ADJ'])
 
 print("Tag\tAccuracy with Unigram\tAccuracy with Bigram")
 
 for tag in tagSet:
+	
 	tag_train = nltk.DefaultTagger(tag)
-	tagger = UnigramTagger(dados_treino,backoff=tag_train)
-	
+	tagger = UnigramTagger(dados_treino,backoff=tag_train)	
 	accuacyUnigram = tagger.evaluate(dados_teste)
-
-	tagger2 = BigramTagger(dados_treino, backoff=tagger)
-	
+	tagger2 = BigramTagger(dados_treino, backoff=tagger)	
 	accuacyBigram = tagger2.evaluate(dados_teste)
+
 	print(tag,'\t',accuacyUnigram,'\t',accuacyBigram)
 
 '''teste = open("macmorpho-test.txt").read()

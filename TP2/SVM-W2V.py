@@ -27,7 +27,7 @@ def leitura_arquivo(path):
         tokens = line.split()
         for token in tokens:
             word =  token.split('_')[0]
-            tag =  'POS_'+token.split('_')[1]
+            tag =  token.split('_')[1]
             text.append(word)
             tags.append(tag)
             if tag not in word_tags[word]:
@@ -105,53 +105,57 @@ get_ipython().run_cell_magic('time', '', 'for i in range(len(text)):\n    mtx[wo
 
 # In[9]:
 
-for element in enumerate(set(tags)):
-    indx = element[0]
-    etiqueta = element[1]
-    Y_train = []
-    print("Training and evaluating for Tag ",etiqueta,' using rbf')
+with open('SVM.dat','w') as saida:
+    saida.write('Tag\tCross-Validation\tRBF score\n')
+    for key, value in tag_dict.items():
+        indx = value
+        etiqueta = key
+        print('Training for tag ',etiqueta)
+        Y_train = []
+        
+        for i in range(len(vec_word)):
+            Y_train.append(mtx[i,indx])
+        # In[10]:
+        '''%%time
+        clf = svm.SVC()
+        clf.fit(X_train,Y_train)'''
 
-    for i in range(len(vec_word)):
-        Y_train.append(mtx[i,indx])
-    # In[10]:
-    '''%%time
-    clf = svm.SVC()
-    clf.fit(X_train,Y_train)'''
+        # In[11]:
 
-    # In[11]:
+        '''teste = clf.score(X_train[:150], Y_train[:150])
+        teste'''
 
-    '''teste = clf.score(X_train[:150], Y_train[:150])
-    teste'''
+        # In[10]:
 
-    # In[10]:
+        get_ipython().run_cell_magic('time', '', 'X = X_train[:10000]\ny = Y_train[:10000]')
 
-    get_ipython().run_cell_magic('time', '', 'X = X_train[:10000]\ny = Y_train[:10000]')
+        # In[11]:
 
-    # In[11]:
+        get_ipython().run_cell_magic('time', '', "svr_rbf = svm.SVC(kernel='rbf', C=1e3, gamma=0.1)\n#svr_lin = svm.SVC(kernel='linear', C=1e3)\n#svr_poly = svm.SVC(kernel='poly', C=1e3, degree=2)\ny_rbf = svr_rbf.fit(X, y)#.predict(X)\n#y_lin = svr_lin.fit(X, y)#.predict(X)\n#y_poly = svr_poly.fit(X, y)#.predict(X)")
 
-    get_ipython().run_cell_magic('time', '', "svr_rbf = svm.SVC(kernel='rbf', C=1e3, gamma=0.1)\n#svr_lin = svm.SVC(kernel='linear', C=1e3)\n#svr_poly = svm.SVC(kernel='poly', C=1e3, degree=2)\ny_rbf = svr_rbf.fit(X, y)#.predict(X)\n#y_lin = svr_lin.fit(X, y)#.predict(X)\n#y_poly = svr_poly.fit(X, y)#.predict(X)")
+        # In[14]:
 
-    # In[14]:
+        get_ipython().run_cell_magic('time', '', 'clf = svm.SVC()\nclf.fit(X,y)')
 
-    get_ipython().run_cell_magic('time', '', 'clf = svm.SVC()\nclf.fit(X,y)')
+        # In[ ]:
 
-    # In[ ]:
+        '''print(y_lin.score(X,y),
+        y_poly.score(X,y),
+        y_rbf.score(X,y))'''
 
-    '''print(y_lin.score(X,y),
-    y_poly.score(X,y),
-    y_rbf.score(X,y))'''
+        # In[ ]:
 
-    # In[ ]:
+        #print(y_poly.score(X,y))
 
-    #print(y_poly.score(X,y))
+        # In[ ]:
 
-    # In[ ]:
+        #print(y_lin.score(X,y))
 
-    #print(y_lin.score(X,y))
+        # In[16]:
+        
+        saida.write(etiqueta+'\t'+str(clf.score(X,y))+'\t'+str(y_rbf.score(X,y))+'\n')
+        print('Cross-Validation: ',clf.score(X,y))
 
-    # In[16]:
-    print('Cross-Validation: ',clf.score(X,y))
+        # In[12]:
 
-    # In[12]:
-
-    print('Rbf Score: ',y_rbf.score(X,y))
+        print('Rbf Score: ',y_rbf.score(X,y))
