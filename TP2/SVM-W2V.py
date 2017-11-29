@@ -106,7 +106,7 @@ get_ipython().run_cell_magic('time', '', 'for i in range(len(text)):\n    mtx[wo
 # In[9]:
 
 with open('SVM.dat','w') as saida:
-    saida.write('Tag\tCross-Validation\tRBF score\n')
+    saida.write('Tag\tRBF score\n')
     for key, value in tag_dict.items():
         indx = value
         etiqueta = key
@@ -115,6 +115,7 @@ with open('SVM.dat','w') as saida:
         
         for i in range(len(vec_word)):
             Y_train.append(mtx[i,indx])
+        print Y_train
         # In[10]:
         '''%%time
         clf = svm.SVC()
@@ -127,7 +128,7 @@ with open('SVM.dat','w') as saida:
 
         # In[10]:
 
-        get_ipython().run_cell_magic('time', '', 'X = X_train[:10000]\ny = Y_train[:10000]')
+        get_ipython().run_cell_magic('time', '', 'X = X_train[:20000]\ny = Y_train[:20000]')
 
         # In[11]:
 
@@ -153,8 +154,7 @@ with open('SVM.dat','w') as saida:
 
         # In[16]:
         
-        saida.write(etiqueta+'\t'+str(clf.score(X,y))+'\t'+str(y_rbf.score(X,y))+'\n')
-        print('Cross-Validation: ',clf.score(X,y))
+        saida.write(etiqueta+'\t'+str(y_rbf.score(X,y))+'\n')
 
         # In[12]:
 
