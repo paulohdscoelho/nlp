@@ -31,23 +31,29 @@ def geraMatriz(intersection,word_vectors):
 	return distanceMatrix
 
 while True:
-	bin1 = raw_input("Digite o primeiro livro") 
-	bin2 = raw_input("Digite o segundo livro") 
+	bin1 = input("Digite o primeiro livro ") 
+	#bin2 = raw_input("Digite o segundo livro") 
 	with open("../analisesTP.dat",'a') as saida:
 		print("iniciando")
 		word_vectors1 = KeyedVectors.load_word2vec_format(bin1+'.bin', binary=True)  # C binary format
-		word_vectors2 = KeyedVectors.load_word2vec_format(bin2+'.bin', binary=True)  # C binary format
+		#word_vectors2 = KeyedVectors.load_word2vec_format(bin2+'.bin', binary=True)  # C binary format
 
-		keysA = set(word_vectors1.vocab.keys())
-		keysB = set(word_vectors2.vocab.keys())
+		dictWords = word_vectors1.vocab
+		keysA = set(dictWords.keys())
+		for key in keysA:
+			
+			saida.write(key+'\t')
+			saida.write(str(dictWords[key])+'\n')
+		
+		#keysB = set(word_vectors2.vocab.keys())
 
-		intersection = keysA & keysB
+		#intersection = keysA & keysB
 
-		matrizLivro1 = geraMatriz(intersection,word_vectors1)
-		matrizLivro2 = geraMatriz(intersection,word_vectors2)
+		#matrizLivro1 = geraMatriz(intersection,word_vectors1)
+		#matrizLivro2 = geraMatriz(intersection,word_vectors2)
 
-		saida.write('=============================================================\n')
-		saida.write("Distância entre os livros " + bin1.replace('.bin','') + " vs " + bin2.replace('.bin','')+':\n')
-		saida.write("{0:.2f}\n".format(round(distanciaPadrao(matrizLivro1,matrizLivro2),2)))
-		print("Pronto")
+		#saida.write('=============================================================\n')
+		#saida.write("Distância entre os livros " + bin1.replace('.bin','') + " vs " + bin2.replace('.bin','')+':\n')
+		#saida.write("{0:.2f}\n".format(round(distanciaPadrao(matrizLivro1,matrizLivro2),2)))
+		#print("Pronto")
 

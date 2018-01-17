@@ -9,7 +9,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 d = path.dirname(__file__)
 
 # Read the whole text.
-text = open(sys.argv[1]).read()
+text = open(sys.argv[1]).read().lower()
 text = text.replace('cataluna','cataluña').replace('referendum','referéndum')
 
 # read the mask / color image taken from
